@@ -14,7 +14,7 @@ public class TestClass {
 		System.setProperty("webdriver.chrome.driver", exePath);
 		
 		driver=new ChromeDriver();
-		
+		//Maximizing  window
 		driver.manage().window().maximize();
 		
 		driver.get("http://www.google.com");
