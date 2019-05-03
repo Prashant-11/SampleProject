@@ -12,7 +12,7 @@ public class TestClass {
 		// TODO Auto-generated method stub E:\chromedriver_win32
 		String exePath = "E:\\chromedriver_win32\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", exePath);
-		
+		//ChromeDriver object creation
 		driver=new ChromeDriver();
 		//Maximizing  window
 		driver.manage().window().maximize();
